@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { GameComponent } from './components/game/game.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { InstructionsComponent } from './components/instructions/instructions.component';
+import { LoginComponent } from './components/login/login.component';
+import { HistoryComponent } from './components/history/history.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GameComponent,
     MenuComponent,
-    InstructionsComponent
+    InstructionsComponent,
+    LoginComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,

@@ -31,3 +31,6 @@ E:\Monty Hall Problem\Monty Hall Problem\backend\MontyHall_be\obj\Debug\net8.0\r
 E:\Monty Hall Problem\Monty Hall Problem\backend\MontyHall_be\obj\Debug\net8.0\MontyHall_be.pdb
 E:\Monty Hall Problem\Monty Hall Problem\backend\MontyHall_be\obj\Debug\net8.0\MontyHall_be.genruntimeconfig.cache
 E:\Monty Hall Problem\Monty Hall Problem\backend\MontyHall_be\obj\Debug\net8.0\ref\MontyHall_be.dll
+E:\Monty Hall Problem\Monty Hall Problem\backend\MontyHall_be\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Monty Hall Problem\Monty Hall Problem\backend\MontyHall_be\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Monty Hall Problem\Monty Hall Problem\backend\MontyHall_be\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

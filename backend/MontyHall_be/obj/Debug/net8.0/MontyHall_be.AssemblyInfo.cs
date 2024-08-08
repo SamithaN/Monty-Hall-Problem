@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MontyHall_be")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d85ddcbac75a694359903b50435d1d4a3de7d3e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcfaa3361396f3a9aac6cf10d208adc84bc1fd81")]
 [assembly: System.Reflection.AssemblyProductAttribute("MontyHall_be")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MontyHall_be")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

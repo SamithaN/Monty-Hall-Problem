@@ -21,8 +21,12 @@ export class GameService {
     return this.http.post<any>(`${this.apiUrl}/choose`,door);
   }
 
-  finalizeChoice(switchDoor: boolean): Observable<any>
+  finalizeChoice(userId: number, switchDoor: boolean): Observable<any>
   {
-    return this.http.post<any>(`${this.apiUrl}/finalize`,switchDoor);
+    return this.http.post<any>(`${this.apiUrl}/finalize/${userId}`, switchDoor);
+  }
+
+  getGameHistory(userId: number): Observable<any> {
+    return this.http.get<any>(`${this.apiUrl}/history/${userId}`);
   }
 }

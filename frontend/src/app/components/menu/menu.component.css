@@ -25,3 +25,8 @@ body, html {
   background-color: #007bff;
   color: white;
 }
+
+.btn-lg-exit:hover {
+  background-color: #e02911;
+  color: white;
+}

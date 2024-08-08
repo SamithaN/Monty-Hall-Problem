@@ -10,10 +10,16 @@ export class GameComponent implements OnInit {
   gameState: any;
   selectedDoor?: any;
   switchDoor?: boolean;
+  user: any;
 
   constructor(private gameService: GameService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    const userString = localStorage.getItem('user');
+    if (userString) {
+      this.user = JSON.parse(userString);
+    }   
+  }
 
   startGame(): void {
     this.gameService.startGame().subscribe((state) => {
@@ -32,7 +38,7 @@ export class GameComponent implements OnInit {
 
   finalizeChoice(switchDoor: boolean): void {
     this.switchDoor = switchDoor;
-    this.gameService.finalizeChoice(switchDoor).subscribe((state) => {
+    this.gameService.finalizeChoice(this.user.id,switchDoor).subscribe((state) => {
       this.gameState = state;      
     });
   }

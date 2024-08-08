@@ -1,12 +1,14 @@
 <div class="d-flex align-items-center justify-content-center vh-100">
   <div class="jumbotron text-center custom-jumbotron d-flex flex-column justify-content-center align-items-center">
     <h1 class="display-4">Monty Hall Game</h1>
-    <p class="lead">Test your luck and strategy in the classic Monty Hall problem!</p>
-    <hr class="my-4">
-    <p>Choose an option to get started:</p>
+    <p class="lead pt-4" style="font-weight: 400;">Test your luck and strategy in the classic Monty Hall problem!</p>
+    <hr class="my-2">
+    <p class="lead" style="font-weight: 400;">Choose an option to get started:</p>
     <div class="button-container d-flex flex-column">
-      <a class="btn btn-primary btn-lg mb-2" routerLink="/game" role="button">Start Game</a>
+      <a class="btn btn-secondary btn-lg mb-2" routerLink="/game" role="button">Start Game</a>
       <a class="btn btn-secondary btn-lg mb-2" routerLink="/instructions" role="button">Game Instructions</a>
+      <a class="btn btn-secondary btn-lg mb-2" routerLink="/history" role="button">View Game History</a>
+      <a class="btn btn-warning btn-lg btn-lg-exit mb-2" routerLink="/login" role="button">Exit</a>
       <!-- <button class="btn btn-danger btn-lg mb-2" (click)="exitApplication()">Exit</button> -->
     </div>
   </div>

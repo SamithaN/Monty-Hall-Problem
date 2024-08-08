@@ -1,0 +1,40 @@
+/* history.component.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .history-card {
+    width: 80%; /* Adjust as needed */
+    max-width: 800px; /* Max width of the card */
+    padding: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for better visibility */
+  }
+  
+  .table {
+    margin-bottom: 1rem;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .card-title {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-secondary {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .bi {
+    margin-right: 0.5rem; /* Space between icon and text */
+  }
+  
