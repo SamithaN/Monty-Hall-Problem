@@ -37,7 +37,7 @@ This project is a full-stack web application that simulates the Monty Hall probl
   
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/monty-hall-simulation.git
+   git clone https://github.com/SamithaN/Monty-Hall-Problem.git 
    cd monty-hall-simulation
    ```
 
