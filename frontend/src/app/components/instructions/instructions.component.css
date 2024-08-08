@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .instructions-card {
+    width: 80%; 
+    max-width: 600px; 
+    padding: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2); 
+  }
+  
+  .card-title {
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    margin-bottom: 2rem;
+  }
+  
+  .btn-secondary {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .bi {
+    margin-right: 0.5rem; 
+  }
+  

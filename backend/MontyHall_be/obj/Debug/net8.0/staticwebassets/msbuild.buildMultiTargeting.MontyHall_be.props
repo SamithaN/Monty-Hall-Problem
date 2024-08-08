@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MontyHall_be.props" />
+</Project>

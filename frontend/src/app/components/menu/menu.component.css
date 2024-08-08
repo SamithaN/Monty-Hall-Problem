@@ -1,0 +1,27 @@
+/* game.component.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.custom-jumbotron {
+  background-color: #f8f9fa; /* Light gray background */
+  width: 50%; /* Half the width of the viewport */
+  height: 50%; /* Half the height of the viewport */
+  padding: 2rem 1rem;
+}
+
+.button-container {
+  width: 100%;
+  max-width: 300px; /* Optional: Limit the max width of the buttons container */
+}
+
+.btn-lg {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-lg:hover {
+  background-color: #007bff;
+  color: white;
+}

@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .custom-jumbotron {
+    background-color: #f8f9fa; 
+    width: 50%; 
+    height: 80%; 
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2); 
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+
+  .card-img-top-result {
+    height: 400px; 
+    object-fit: cover; 
+  }
+  
+  .btn-secondary {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .result-card {
+    height: 500px;
+    margin-top: 1rem;
+  }
+  
+  .bi {
+    margin-right: 0.5rem; 
+  }
+  

@@ -1,0 +1,74 @@
+<div class="d-flex align-items-center justify-content-center vh-100">
+  <div class="jumbotron text-center custom-jumbotron d-flex flex-column justify-content-center align-items-center">
+    <h1 class="display-4">Monty Hall Game</h1>
+
+    <button
+      type="button"
+      class="btn btn-primary btn-lg"
+      *ngIf="!gameState || gameState.gameOver"
+      (click)="startGame()"
+    >
+      Start Game
+    </button>
+
+    <div *ngIf="gameState && !gameState.gameOver" class="mt-4">
+      <h2>Choose a Door</h2>
+      <div class="row mt-4">
+        <div class="col-md-4" *ngFor="let door of [0, 1, 2]">
+          <div class="card">
+            <img class="card-img-top" [src]="'assets/door1' +  '.jpg'" alt="Door {{ door + 1 }}">
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-primary w-100"
+                (click)="chooseDoor(door)"
+                [disabled]="selectedDoor !== null"
+              >
+                Door {{ door + 1 }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="selectedDoor !== null" class="mt-4">
+        <p class="lead">
+          Monty reveals that door {{ gameState.montyReveal + 1 }} does not have the car.
+        </p>
+        <p class="lead">Do you want to switch your choice?</p>
+        <div class="btn-group d-flex flex-column align-items-center" role="group">
+          <button type="button" class="btn btn-success mb-2" (click)="finalizeChoice(true)">Yes, Switch</button>
+          <button type="button" class="btn btn-danger mb-2" (click)="finalizeChoice(false)">No, Stay</button>
+        </div>
+      </div>
+    </div>
+    
+    <div *ngIf="gameState && gameState.gameOver" class="mt-4">
+      <div class="card result-card mx-auto">
+        <img
+          *ngIf="gameState.userWon"
+          src="assets/car.jpg"
+          alt="Car"
+          class="card-img-top-result"
+        />
+        <img
+          *ngIf="!gameState.userWon"
+          src="assets/goat.jpg"
+          alt="Goat"
+          class="card-img-top-result"
+        />
+        <div class="card-body text-center">
+          <p class="lead">
+            You {{ gameState.userWon ? 'won' : 'lost' }}! The car was behind door {{ gameState.winningDoor + 1 }}.
+          </p>
+          <button
+            type="button"
+            class="btn btn-secondary mt-3"
+            routerLink="/menu"
+          >
+            <i class="bi bi-x-circle"></i> Go to Menu
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
