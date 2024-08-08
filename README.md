@@ -38,7 +38,7 @@ This project is a full-stack web application that simulates the Monty Hall probl
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/SamithaN/Monty-Hall-Problem.git 
-   cd monty-hall-simulation
+   cd Monty-Hall-Problem
    ```
 
 2. **Setup Backend:**
@@ -56,7 +56,7 @@ This project is a full-stack web application that simulates the Monty Hall probl
 
 1. **Run Backend:**
    ```sh
-   cd backend
+   cd MontyHall_be
    dotnet run
    ```
 The backend server will start at https://localhost:5113.
