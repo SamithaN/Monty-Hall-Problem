@@ -80,11 +80,11 @@ The frontend will be accessible at http://localhost:4200.
 - │    └── ...                
 - │
 - └── frontend/              # Angular Frontend
--     ├── src/               # Angular app source code
--     ├── app/               # Application components and services
--     ├── assets/            # Static assets (images, styles)
--     ├── environments/      # Environment configurations
--     └── ...
+- │   ├── src/               # Angular app source code
+- │   ├── app/               # Application components and services
+- │   ├── assets/            # Static assets (images, styles)
+- │   ├── environments/      # Environment configurations
+- │   └── ...
   
 ### Usage
 - Login/Register: Create an account or log in with an existing account.
