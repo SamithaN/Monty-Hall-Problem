@@ -12,7 +12,6 @@ This project is a full-stack web application that simulates the Monty Hall probl
   - [Running the Application](#running-the-application)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [License](#license)
 
 ## Features
 
@@ -74,18 +73,18 @@ The frontend will be accessible at http://localhost:4200.
 - monty-hall-simulation/
 - │
 - ├── backend/               # .NET Core Backend
-- │   ├── Controllers/       # API Controllers
-- │   ├── Data/              # Database context and configuration
-- │   ├── Models/            # Domain models
-- │   ├── Program.cs         # Application entry point
-- │   └── ...                
+- │    ├── Controllers/       # API Controllers
+- │    ├── Data/              # Database context and configuration
+- │    ├── Models/            # Domain models
+- │    ├── Program.cs         # Application entry point
+- │    └── ...                
 - │
 - └── frontend/              # Angular Frontend
--    ├── src/               # Angular app source code
--    ├── app/               # Application components and services
--    ├── assets/            # Static assets (images, styles)
--    ├── environments/      # Environment configurations
--    └── ...
+-     ├── src/               # Angular app source code
+-     ├── app/               # Application components and services
+-     ├── assets/            # Static assets (images, styles)
+-     ├── environments/      # Environment configurations
+-     └── ...
   
 ### Usage
 - Login/Register: Create an account or log in with an existing account.
